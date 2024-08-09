@@ -432,9 +432,9 @@ div.blog-post {
     }
 }
 
-//---------------------- CALL TO ACTION ------------------------
+//---------------------- INFO FRAME ------------------------
 
-.mframe.callta {
+.mframe.infoframe {
     align-items: center;
     gap: 10px;
 
@@ -445,6 +445,14 @@ div.blog-post {
         line-height: 1.4em;
         text-align: center;
         color: $headers;
+    }
+
+    p {
+        max-width: 50%;
+        margin-block-start: 5px;
+        margin-block-end: 5px;
+        line-height: 1.4em;
+        text-align: center;
     }
 }
 
